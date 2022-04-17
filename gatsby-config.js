@@ -144,5 +144,7 @@ module.exports = {
         // Add any options here
       },
     },
+    `gatsby-plugin-root-import`,
+    `gatsby-plugin-provide-react`,
   ],
 }
