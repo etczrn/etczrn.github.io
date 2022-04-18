@@ -33,5 +33,10 @@ p, h1, h2, h3, h4, h5, h6 {
 `
 
 export const Layout: React.FC = ({ children }) => {
-  return <GlobalStyle>{children}</GlobalStyle>
+  return (
+    <>
+      <GlobalStyle />
+      <main>{children}</main>
+    </>
+  )
 }
