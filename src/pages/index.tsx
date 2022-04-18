@@ -1,4 +1,4 @@
-import * as React from "react"
+import React from "react"
 
 // styles
 const pageStyles = {
@@ -137,8 +137,8 @@ const IndexPage = () => {
         🎉🎉🎉
       </h1>
       <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.tsx</code> to see this page
-        update in real-time. 😎
+        Edit <code style={codeStyles}>src/pages/index.tsx</code> to see this
+        page update in real-time. 😎
       </p>
       <ul style={listStyles}>
         <li style={docLinkStyle}>
