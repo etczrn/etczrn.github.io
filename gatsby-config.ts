@@ -42,6 +42,7 @@ const config: GatsbyConfig = {
         allExtensions: true, // defaults to false
       },
     },
+    `gatsby-plugin-styled-components`,
   ],
 }
 
