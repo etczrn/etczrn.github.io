@@ -36,7 +36,7 @@ export const Layout: React.FC = ({ children }) => {
   return (
     <>
       <GlobalStyle />
-      <main>{children}</main>
+      {children}
     </>
   )
 }
