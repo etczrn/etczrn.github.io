@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-index-tsx-2ef37cfe0d4868505c03.js","mappings":"0IAIA,UAJkB,WAChB,OAAOA,EAAAA,cAAAA,EAAAA,SAAAA,KAAAA","sources":["webpack://my-gatsby-site/./src/pages/index.tsx"],"sourcesContent":["const IndexPage = () => {\n  return <>test tailwind global css</>\n}\n\nexport default IndexPage\n"],"names":["React"],"sourceRoot":""}

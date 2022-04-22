@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_gatsby_site=self.webpackChunkmy_gatsby_site||[]).push([[691],{4385:function(t,e,s){s.r(e);var n=s(7294);e.default=function(){return n.createElement(n.Fragment,null,"test tailwind global css")}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-2ef37cfe0d4868505c03.js.map
