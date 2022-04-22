@@ -1,5 +1,5 @@
 const IndexPage = () => {
-  return <></>
+  return <>test tailwind global css</>
 }
 
 export default IndexPage
