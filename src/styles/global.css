@@ -5,6 +5,10 @@
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
 */
+html, body {
+  height: 100%;
+}
+
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
