@@ -1,4 +1,14 @@
-import type { GatsbyConfig } from 'gatsby';
+import type { GatsbyConfig, IPluginRefOptions } from 'gatsby';
+import path from 'path';
+import fs from 'fs';
+
+const srcDirs = fs.readdirSync(path.resolve(__dirname, 'src'));
+
+const rootDirsConfig: IPluginRefOptions = {};
+
+srcDirs.forEach((srcDir) => {
+  rootDirsConfig[srcDir] = path.resolve(__dirname, 'src', srcDir);
+});
 
 const config: GatsbyConfig = {
   siteMetadata: {
@@ -38,6 +48,11 @@ const config: GatsbyConfig = {
       __key: 'pages',
     },
     'gatsby-plugin-postcss',
+    // 'gatsby-plugin-root-import',
+    {
+      resolve: 'gatsby-plugin-root-import',
+      options: rootDirsConfig,
+    },
   ],
 };
 
